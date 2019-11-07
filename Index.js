@@ -11,9 +11,9 @@ let newWinner = () => {
         const winner = newWinner();
 
         if(e.target.innerHTML === winner) {
-            result.innerHTML = 'You win! Wanna play again?';
+            return result.innerHTML = 'You win! Wanna play again?';
         } else {
-            result.innerHTML = 'You lose! Wanna play again?';
+            return result.innerHTML = 'You lose! Wanna play again?';
         }
     })
 })
